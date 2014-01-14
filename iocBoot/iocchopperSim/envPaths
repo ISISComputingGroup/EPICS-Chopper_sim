@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","windows-x64")
+epicsEnvSet("IOC","iocchopperSim")
+epicsEnvSet("TOP","C:/ISISEPICS/ISIS/Chopper_sim")
+epicsEnvSet("EPICS_BASE","C:/ISISEPICS/base/3-14-12-2")

@@ -1,0 +1,106 @@
+record(ai,"$(P)FREQ"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "3")
+    field(EGU, "Hz")
+    field(LOPR, 0)
+	field(INP, "$(P)FREQ:SP")
+    field(SCAN, ".1 second")
+}
+record(ai,"$(P)FREQ:SP:RBV"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "3")
+    field(EGU, "Hz")
+    field(LOPR, 0)
+	field(INP, "$(P)FREQ:SP")
+}
+record(ai,"$(P)FREQ:SP"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "3")
+    field(EGU, "Hz")
+    field(LOPR, 0)
+}
+record(ai,"$(P)PHAS"){
+    field(SCAN, ".1 second")
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "1")
+    field(EGU, "us")
+    field(LOPR, -180)
+    field(HOPR, 180)
+	field(INP, "$(P)PHAS:SP")
+}
+record(ai,"$(P)PHAS:SP:RBV"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "1")
+    field(EGU, "us")
+    field(LOPR, -180)
+    field(HOPR, 180)
+	field(INP, "$(P)PHAS:SP")
+}
+record(ai,"$(P)PHAS:SP"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "1")
+    field(EGU, "us")
+    field(LOPR, -180)
+    field(HOPR, 180)
+}
+record(ai,"$(P)PHAS_ERR"){
+    field(SCAN, ".1 second")
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "0")
+    field(LOPR, -180)
+    field(HOPR, 180)
+	field(INP, "$(P)PHAS_ERR:SP")
+}
+record(ai,"$(P)PHAS_ERR:SP:RBV"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "0")
+    field(LOPR, -180)
+    field(HOPR, 180)
+	field(INP, "$(P)PHAS_ERR:SP")
+}
+record(ai,"$(P)PHAS_ERR:SP"){
+    field(DTYP,"Soft Channel")
+    field(VAL,0)
+    field(PREC, "0")
+    field(LOPR, -180)
+    field(HOPR, 180)
+}
+record(stringin,"$(P)DIR"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"X")
+}
+record(stringin,"$(P)DIR:SP:RBV"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"X")
+}
+record(stringin,"$(P)DIR:SP"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"X")
+}
+record(ai,"$(P)VETO"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"0")
+    field(PREC, "0")
+}
+record(ai,"$(P)READY"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"0")
+    field(PREC, "0")
+}
+record(ai,"$(P)INSYNC"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"1")
+    field(PREC, "0")
+}
+record(stringin,"$(P)VALIDFREQS"){
+    field(DTYP,"Soft Channel")
+    field(VAL,"0|3|10|30|100")
+}
