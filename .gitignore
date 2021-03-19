@@ -7,8 +7,8 @@ O.*/
 /templates
 envPaths
 cdCommands
-dllPath.bat
-runIOC*.bat
+dllPath*.bat
+runIOC.bat
 runIOC.sh
 relPaths.sh
 .project
